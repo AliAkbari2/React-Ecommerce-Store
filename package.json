@@ -1,0 +1,21 @@
+{
+  "name": "seng513_group10",
+  "version": "1.0.0",
+  "description": "Tasks Spreadsheet:\r <br>\r https://docs.google.com/spreadsheets/d/1lCMu9GS81pHTy0e6Y6e4lmNZYaBZB7IieakvUBOXPDw/edit?usp=sharing\r <br>\r Meeting notes:\r <br>\r https://docs.google.com/document/d/1GHTSCtOl0CMIyxA88W-f9Al8eD-RhyjPd168NCUrY9o/edit?usp=sharing\r <br>",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../client && npm install --force && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raboull/SENG513_group10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raboull/SENG513_group10/issues"
+  },
+  "homepage": "https://github.com/raboull/SENG513_group10#readme"
+}

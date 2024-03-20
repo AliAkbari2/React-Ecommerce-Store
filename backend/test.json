@@ -1,0 +1,50 @@
+{
+  "_id": { "$oid": "638d5bf3191cabbeb23dc649" },
+  "name": "Panda Switches",
+  "slug": "panda-switches",
+  "image": "/images/panda.png",
+  "brand": "Keyboard Store",
+  "category": "Switches",
+  "description": "Tactile Switch",
+  "price": { "$numberInt": "80" },
+  "countInStock": { "$numberInt": "1000" },
+  "rating": { "$numberInt": "3" },
+  "numReviews": { "$numberInt": "4" },
+  "__v": { "$numberInt": "4" },
+  "createdAt": { "$date": { "$numberLong": "1668905459682" } },
+  "updatedAt": { "$date": { "$numberLong": "1670130862474" } },
+  "reviews": [
+    {
+      "name": "Post malone",
+      "comment": "Too small",
+      "rating": { "$numberInt": "2" },
+      "_id": { "$oid": "6379985ba3cbb86406b4a11c" },
+      "createdAt": { "$date": { "$numberLong": "1668913243927" } },
+      "updatedAt": { "$date": { "$numberLong": "1668913243927" } }
+    },
+    {
+      "name": "Test",
+      "comment": "not bad",
+      "rating": { "$numberInt": "2" },
+      "_id": { "$oid": "637a9fb8c07d9047e69e0ff7" },
+      "createdAt": { "$date": { "$numberLong": "1668980664845" } },
+      "updatedAt": { "$date": { "$numberLong": "1668980664845" } }
+    },
+    {
+      "name": "test",
+      "comment": "Good so far",
+      "rating": { "$numberInt": "4" },
+      "_id": { "$oid": "637aef5973305dbb0d8ad760" },
+      "createdAt": { "$date": { "$numberLong": "1669001049924" } },
+      "updatedAt": { "$date": { "$numberLong": "1669001049924" } }
+    },
+    {
+      "name": "Shopper",
+      "comment": "I can type a lot faster now!",
+      "rating": { "$numberInt": "4" },
+      "_id": { "$oid": "638c2cae6431a373778fd024" },
+      "createdAt": { "$date": { "$numberLong": "1670130862474" } },
+      "updatedAt": { "$date": { "$numberLong": "1670130862474" } }
+    }
+  ]
+}
